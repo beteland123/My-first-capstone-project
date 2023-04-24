@@ -41,3 +41,30 @@
   .menu {
     display: none;
   }
+.co{
+    font-family: 'cocogoose-regular', sans-serif;
+}
+.la{
+    font-family: 'Lato',sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/background-mobile2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.red{
+    color: #ec5242;;
+}
+.gray{
+    color: #6f7073;
+}
+.head{
+    margin-left: 10px;
+}
+.paragraph{
+    background-color: #cfd1d2;
+}
