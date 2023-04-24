@@ -1,0 +1,31 @@
+{
+  "name": "my-first-capstone-project",
+  "version": "1.0.0",
+  "description": "- [:book: About the Project](#about-project)\r   - [:hammer_and_wrench: Built With](#built-with)\r    - [Key Features](#key-features)\r   - [:rocket: Live Demo](#live-demo)\r - [:computer: Getting Started](#getting-started)\r   - [Setup](#setup)\r   - [Prerequisites](#prerequisites)\r   - [Install](#install)\r   - [Run tests](#run-tests)\r   - [Deployment](#triangular_flag_on_post-deployment)\r - [:busts_in_silhouette: Authors](#authors)\r - [:telescope: Future Features](#future-features)\r - [:handshake: Contributing](#contributing)\r - [:star:️ Show your support](#support)\r - [:pray: Acknowledgements](#acknowledgements)\r - [:memo: License](#license)\r # :book: [My-first-capstone-project] <a name=\"about-project\"></a>\r > This project is called capstone-project for module-1 in microvese. It is devloped for the purpose of Designing a website  at the end of the each of the Microverse Core Curriculum modules. my capstone project is focused on developing a website for an online webprogramming course for females.\r - outtline of about my project: [video]()\r ## :hammer_and_wrench: Built With <a name=\"built-with\"> using Html, CSS and javascript</a>\r ### Tech Stack <a name=\"tech-stack\"></a>\r <details>\r   <summary>Version Control</summary>\r   <ul>\r     <li><a href=\"https://github.com/\">Git Hub</a></li>\r   </ul>\r </details>\r <details>\r   <summary>Visual Studio Code</summary>\r   <ul>\r     <li><a href=\"https://code.visualstudio.com\">Visual Studio Code</a></li>\r   </ul>\r </details>\r <details>\r   <summary>Client</summary>\r   <ul>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML\">HTML5</a></li>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a></li>\r     <li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript\">JavaScript</a></li>\r   </ul>\r </details>\r ### Key Features <a name=\"key-features\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beteland123/My-first-capstone-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beteland123/My-first-capstone-project/issues"
+  },
+  "homepage": "https://github.com/beteland123/My-first-capstone-project#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.8",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
