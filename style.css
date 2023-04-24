@@ -1,0 +1,43 @@
+.mobile-menu {
+    display: none;
+    position: fixed;
+    background: #020202cf;
+    width: 100%;
+    height: 100vh;
+    gap: 40px;
+    top: 0;
+    flex-direction: column;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    animation: moveInBottomLeft;
+  }
+
+  .mobile-menu-close {
+    position: relative;
+    left: 19em;
+  }
+
+  .mobile-menu > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+    position: relative;
+    left: -10px;
+    padding: 0;
+    margin-top: 0.9em;
+    height: max-content;
+    width: 2em;
+    height: 2em;
+  }
+  
+  .menu {
+    display: none;
+  }
