@@ -77,15 +77,25 @@
     display: grid;
     grid-template-rows: auto auto auto auto auto ;
     gap:1em;
+    background-color: black;
 }
 .program{
     display: flex;
     flex-direction: row;
-    background-color: black;
+    
     height: 5em;
     margin-left:16px ;
     margin-right: 16px;
     gap: 1em;
+}
+.program-title{
+    font-size: 34px;
+    margin-left: 108px;;
+}
+ hr{
+    border: 2px solid orangered;
+    margin-top: 2px;
+    width: 150px
 }
 .first{
     display: flex;
