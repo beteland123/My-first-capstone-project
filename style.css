@@ -53,21 +53,27 @@
     width: 35em;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center; 
+    
 }
 body{
-    background-image: url(img/background-mobile2.png);
+    background-color: gainsboro;
+}
+.content-back{
+    background-image: url(img/wider.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto; 
+    width: 45em;
 }
 .red{
-    color: #ec5242;;
+    color: #ec5242;
 }
 .gray{
     color: #6f7073;
 }
 .head{
-    margin-left: 10px;
+    margin-left: 151px;
+    width: 25em;
 }
 .paragraph{
     background-color: #cfd1d2;
@@ -78,7 +84,7 @@ body{
     width: 100;
 }
 .main-program{
-    width: 35em;
+    width: 45em;
     display: grid;
     grid-template-rows: auto auto auto auto auto ;
     gap:1em;
@@ -89,7 +95,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 7em;
-    margin-left: 68px;
+    margin-left: 120px;
     margin-right: 100px;
     gap: 1em;
     margin-top: 10px;
@@ -129,5 +135,14 @@ body{
 }
 .logop{
     display: none;
+}
+.join{
+    background-color: #ec5242;
+    color: white;
+    margin-left: 157px;
+    margin-right: 100px;
+    width: 17em;
+    padding-left: 22px;
+
 }
 }
