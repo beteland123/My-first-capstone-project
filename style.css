@@ -1,3 +1,4 @@
+@media only screen and (max-width: 768px) {
 .mobile-menu {
     display: none;
     position: fixed;
@@ -49,6 +50,7 @@
     font-family: 'Lato',sans-serif;
 }
 .content{
+    width: 35em;
     display: flex;
     flex-direction: column;
     justify-content: center;  
@@ -73,32 +75,39 @@ body{
 .program-back{
     background-color: rgba(62, 58, 58, 0.686);
     color: white;
+    width: 100;
 }
 .main-program{
+    width: 35em;
     display: grid;
     grid-template-rows: auto auto auto auto auto ;
     gap:1em;
     background-color: black;
 }
 .program{
+    background-color: rgba(62, 58, 58, 0.686);
     display: flex;
     flex-direction: row;
-    color: #6f7073;
-    height: 5em;
-    margin-left:16px ;
-    margin-right: 16px;
+    height: 7em;
+    margin-left: 68px;
+    margin-right: 100px;
     gap: 1em;
+    margin-top: 10px;
+    width: 25em;
 }
+
 .program-title{
     font-size: 34px;
     margin-left: 108px;;
 }
  hr{
+    margin-left: 120px;
     border: 2px solid orangered;
     margin-top: 2px;
     width: 150px
 }
 .first{
+    padding-top: 1em;
     display: flex;
     flex-direction: row;
     gap: 1em;
@@ -107,14 +116,18 @@ body{
     margin-top: 14px;
     width: 2em;
     height: 2em;
+    vertical-align: middle;
 }
 .second{
     width: 20em;
-    font-size: 0.7em;
+    font-size: 1em;
+    color: white;
 }
 .title{
-    width: 5em;
+    width: 4em;
+    font-size: 20px;
 }
 .logop{
     display: none;
+}
 }
