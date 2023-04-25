@@ -51,11 +51,12 @@
 .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
+}
+body{
     background-image: url(img/background-mobile2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .red{
     color: #ec5242;;
@@ -82,7 +83,7 @@
 .program{
     display: flex;
     flex-direction: row;
-    
+    color: #6f7073;
     height: 5em;
     margin-left:16px ;
     margin-right: 16px;
