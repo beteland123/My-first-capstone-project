@@ -382,7 +382,7 @@ body{
         }
         .main-program{
            
-            width: 45em;
+            width: 85em;
             display: grid;
             grid-template-columns: auto auto auto auto;
             gap:2em;
