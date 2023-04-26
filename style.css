@@ -1,4 +1,22 @@
-
+.co{
+    font-family: 'cocogoose-regular', sans-serif;
+}
+.la{
+    font-family: 'Lato',sans-serif;
+}
+.red{
+    color: #ec5242;
+}
+.gray{
+    color: #6f7073;
+}
+@media only screen and (max-width: 768px){
+    .social-media{
+        display: none;
+    }
+    .desk{
+        display: none;
+    }
 .mobile-menu {
     display: none;
     position: fixed;
@@ -65,12 +83,7 @@ body{
     background-size: 100% auto; 
     width: 45em;
 }
-.red{
-    color: #ec5242;
-}
-.gray{
-    color: #6f7073;
-}
+
 .head{
     margin-left: 151px;
     width: 25em;
@@ -92,6 +105,9 @@ body{
     margin: 15px 23px 14px 12px;
     border: 2px solid #8080804d;
     background-color: #cfd1d2;
+}
+.main{
+    background-color: black; 
 }
 .foot .co{
     font-family: 'Cocogoosetrial', sans-serif;
@@ -127,7 +143,7 @@ body{
     gap: 1em;
     margin-top: 10px;
     width: 25em;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .program-title{
@@ -186,4 +202,240 @@ body{
     margin-left: 1em;
     margin-right: 1em;
 }
+}
+@media only screen and (min-width: 768px){
+   
+    .footer-second2 p {
+        width: 30%;
+        height: 10%;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 13px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.01em;
+        color: #272a31;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .mobile-menu {
+        display: none;
+      }
+    
+    .social-media{
+        min-width: 90em;
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        align-items: center;
+        text-align: center;
+        color: #344563;
+        gap: 3%;
+        background-color: black;
+     }
+     .social-media a{
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 31px;
+        align-items: center;
+        text-align: center;
+        color: #344563;
+        gap: 15%;
+        background-color: black;
+        margin-right: 63px;
+        text-decoration: none;
+        color: #ffff;
+     }
+     .img{
+        width: 2em;
+        height: 1em;
+     }
+     
+      .toolbar .menu {
+        display: flex;
+        gap: 4.5rem;
+        
+      }
+     
+    .logop{
+        padding-left: 7em;
+        width: 2em;
+    }
+    .mylogo img{
+        width: 9em;
+        height: 4em;
+    }
+      .desk{
+        height: 4em;
+        min-width: 90em;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        margin-right: 58px;
+        align-items: center;
+        text-align: center;
+        color: #344563;
+        gap: 3%;
+        background-color: #ffff;
+      }
+      .desk a{
+            background-color: #ffff;
+            text-decoration: none;
+            color: #344563;
+      }
+     
+     .head{
+        margin-right: 11em;
+        
+     }
+     .Hello{
+        margin-top: 2em;
+     }
+     .para1{
+        margin-right: 9em;
+        margin-left: 151px;
+        width: auto;
+        align-items: center;
+     }
+     .para2{
+        margin-right: 2em;
+        padding-left: 47px;
+        width:auto;
+     }
+     
+     .container{
+        width: auto;
+     }
+     .strong{
+        width: auto;
+        padding-left: 151px;
+     }
+    
+    .toolbar{
+        height: 4em;
+    }
+    .content-back {
+        min-width: 85em;
+            background-image: url(img/wider.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 45em; 
+           height: 45em;
+        }
+        .content{
+            width: 55em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            margin-left: 30em;
+            
+        }
+        .head{
+            margin-left: -23px;
+           
+        }
+        .Hello{
+            font-size: 25px;
+        }
+        .headp{
+            -webkit-background-clip: text;
+            font-weight: 700;
+            font-size: 52px;
+        }
+    
+        .paragraph{
+            background-color: white;
+    width: 35em;
+    -bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left:-12px ;
+    margin-right: 187px ;
+    border: 2px solid #8080804d;
+    background-color: #cfd1d2;
+    font-size: 24px;
+        }
+        .foot .co{
+            font-family: 'Cocogoosetrial', sans-serif;
+            font-size: 47px;
+            color: #6f7073;
+            font-weight: bolder;
+        }
 
+        .foot .la{
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+            color: #6f7073;
+        }
+        .main-program{
+           
+            width: 45em;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap:2em;
+            background-color: black;
+        }
+        .main{
+            background-color: black; 
+        }
+        .program-back{
+            background-color: rgba(62, 58, 58, 0.686);
+            color: white;
+            width: 100;
+            align-items: center;
+            padding-left: 43em;
+        }
+        .program{
+            margin-left: 5em;
+            background-color: rgba(62, 58, 58, 0.686);
+            display: flex;
+            flex-direction: column;
+            height: 23em;
+            gap: 1em;
+            margin-top: 10px;
+            /*overflow: hidden;*/
+        }
+        .first{
+            padding-top: 1em;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .icon-img{
+            margin-top: 14px;
+            width: 6em;
+            height: 6em;
+            vertical-align: middle;
+            padding-left: 4em;
+        }
+        .second{
+            padding-left: 1em;
+            width: 15em;
+            font-size: 1em;
+            color: white;
+        }
+        .title{
+            padding-left: 2em;
+            width: 4em;
+            font-size: 30px;
+        }
+        hr{
+            margin-left: 10px;
+            border: 2px solid orangered;
+            margin-top: 2px;
+            width: 150px
+        }
+    }
