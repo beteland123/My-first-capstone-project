@@ -68,41 +68,51 @@
     font-family: 'Lato',sans-serif;
 }
 .content{
-    width: 35em;
+    /*width: 35em;*/
     display: flex;
     flex-direction: column;
     justify-content: center; 
     
 }
 body{
-    background-color: gainsboro;
+    
+    /*background-color: gainsboro;*/
 }
 .content-back{
     background-image: url(img/wider.jpg);
     background-repeat: no-repeat;
-    background-size: 100% auto; 
-    width: 45em;
+   
+    /*
+     background-size: 100% auto; 
+     width: 45em;*/
+     background-size: 100% 100%; 
 }
 
 .head{
-    margin-left: 151px;
+   /* margin-left: 151px;
     width: 25em;
+    */
+    margin-left: 6em;
+
 }
 .Hello{
-    font-size: 25px;
+   /* font-size: 25px;*/
+   font-size: 1.5em;
+
 }
 .headp{
     -webkit-background-clip: text;
-    
-    font-size: 42px;
+    /*font-size: 42px;*/
+    font-size: 2.5em;
 }
 .paragraph{
     background-color: white;
-    /* width: 35em; */
+    /* width: 35em; 
+    margin: 15px 23px 14px 12px;*/
     -bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     padding: 20px;
-    margin: 15px 23px 14px 12px;
+    margin: 2em;
     border: 2px solid #8080804d;
     background-color: #cfd1d2;
 }
@@ -124,12 +134,16 @@ body{
 .program-back{
     background-color: rgba(62, 58, 58, 0.686);
     color: white;
-    width: 100;
+    /*width: 100;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .main-program{
-    width: 45em;
-    display: grid;
-    grid-template-rows: auto auto auto auto auto ;
+    /*width: 45em;*/
+    display: flex;
+   flex-direction: column;
     gap:1em;
     background-color: black;
 }
@@ -138,20 +152,22 @@ body{
     display: flex;
     flex-direction: row;
     height: 7em;
-    margin-left: 120px;
-    margin-right: 100px;
     gap: 1em;
     margin-top: 10px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    /*overflow: hidden;
     width: 25em;
-    /*overflow: hidden;*/
+     margin-left: 120px;
+    margin-right: 100px;*/
 }
 
 .program-title{
     font-size: 34px;
-    margin-left: 108px;;
+    /*margin-left: 108px;;*/
 }
  hr{
-    margin-left: 120px;
+    /*margin-left: 120px;*/
     border: 2px solid orangered;
     margin-top: 2px;
     width: 150px
@@ -224,7 +240,8 @@ body{
       }
     
     .social-media{
-        min-width: 90em;
+        /*min-width: 90em;
+        */
         display: flex;
         justify-content: flex-end;
         font-family: "Poppins", sans-serif;
@@ -251,7 +268,7 @@ body{
         color: #344563;
         gap: 15%;
         background-color: black;
-        margin-right: 63px;
+       /* margin-right: 63px;*/
         text-decoration: none;
         color: #ffff;
      }
@@ -276,7 +293,9 @@ body{
     }
       .desk{
         height: 4em;
-        min-width: 90em;
+        /*min-width: 90em;
+        margin-right: 58px;
+        */
         display: flex;
         justify-content: space-between;
         font-family: "Poppins", sans-serif;
@@ -284,7 +303,7 @@ body{
         font-weight: 500;
         font-size: 15px;
         line-height: 20px;
-        margin-right: 58px;
+        
         align-items: center;
         text-align: center;
         color: #344563;
@@ -298,7 +317,9 @@ body{
       }
      
      .head{
-        margin-right: 11em;
+       /* margin-right: 11em;*/
+       margin-right: 5em;
+
         
      }
      .Hello{
@@ -328,18 +349,23 @@ body{
         height: 4em;
     }
     .content-back {
-        min-width: 85em;
+        /*min-width: 85em;
+         background-size: 100% 45em; 
+          height: 45em;*/
             background-image: url(img/wider.jpg);
             background-repeat: no-repeat;
-            background-size: 100% 45em; 
-           height: 45em;
+            background-size: 100% 100%; 
+          
         }
         .content{
-            width: 55em;
+            /* width: 55em;
+            margin-left: 30em;
+             */
+           
             display: flex;
             flex-direction: column;
             justify-content: center; 
-            margin-left: 30em;
+            margin-left: 13em;
             
         }
         .head{
@@ -347,17 +373,20 @@ body{
            
         }
         .Hello{
-            font-size: 25px;
+            /*font-size: 25px;*/
+            font-size: 3em;
+
         }
         .headp{
             -webkit-background-clip: text;
             font-weight: 700;
-            font-size: 52px;
+            /*font-size: 52px;*/
+            font-size: 4em;
         }
     
         .paragraph{
             background-color: white;
-    width: 35em;
+    /*width: 35em;*/
     -bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     padding-left: 20px;
@@ -370,21 +399,25 @@ body{
         }
         .foot .co{
             font-family: 'Cocogoosetrial', sans-serif;
-            font-size: 47px;
+            /*font-size: 47px;*/
+            font-size: 3em;
             color: #6f7073;
             font-weight: bolder;
         }
 
         .foot .la{
             font-family: 'Lato', sans-serif;
-            font-size: 18px;
+            /*font-size: 18px;*/
+            margin-right: 1em;
             color: #6f7073;
         }
         .main-program{
            
-            width: 85em;
-            display: grid;
-            grid-template-columns: auto auto auto auto;
+           /* width: 85em;
+            gap:2em;
+           */
+            display: flex;
+            flex-direction: row;
             gap:2em;
             background-color: black;
         }
@@ -394,19 +427,26 @@ body{
         .program-back{
             background-color: rgba(62, 58, 58, 0.686);
             color: white;
-            width: 100;
             align-items: center;
-            padding-left: 43em;
+            
+           /* width: 100;
+           padding-left: 43em;
+           padding-left: 32em;*/
+           display: flex;
+           flex-direction: column;
+
+            
         }
         .program{
-            margin-left: 5em;
+            
             background-color: rgba(62, 58, 58, 0.686);
             display: flex;
             flex-direction: column;
             height: 23em;
             gap: 1em;
             margin-top: 10px;
-            /*overflow: hidden;*/
+            /*overflow: hidden;
+            margin-left: 5em;*/
         }
         .first{
             padding-top: 1em;
@@ -419,23 +459,27 @@ body{
             width: 6em;
             height: 6em;
             vertical-align: middle;
-            padding-left: 4em;
+           /* padding-left: 4em;*/
+           padding-left: 3em;
         }
         .second{
             padding-left: 1em;
-            width: 15em;
+           /* width: 15em;*/
             font-size: 1em;
             color: white;
         }
         .title{
-            padding-left: 2em;
+            /*padding-left: 2em;
             width: 4em;
+            */
             font-size: 30px;
+            padding-left: 1em
         }
         hr{
-            margin-left: 10px;
+            /*margin-left: 10px;*/
             border: 2px solid orangered;
             margin-top: 2px;
-            width: 150px
+            width: 150px;
+            display: flex;
         }
     }
