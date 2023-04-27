@@ -15,6 +15,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.sponsor2 img{
+    width: 3em;
+    height: 3em;
+}
 @media only screen and (max-width: 768px){
     .one{
         display: none;
@@ -105,11 +109,18 @@ padding: 0 1.25rem;
     color: #6f7073;
 }
 .head{
-    margin-left: 151px;
+   /* margin-left: 151px;
     width: 25em;
+    */
+    display: flex;
+    flex-direction: column;
+    gap: 0.4375rem;
+    text-align: left;
+    padding: 1.5625rem 1.5625rem 0 1.5625rem;
 }
 .Hello{
-    font-size: 25px;
+    /*font-size: 25px;*/
+    font-size: clamp(0.9rem, 1rem + 5vw, 2.5625rem);
 }
 .headp{
     -webkit-background-clip: text;
@@ -137,7 +148,6 @@ padding: 0 1.25rem;
 }
 
 .para1{
-    width: 35em;
     background-color: white;
     /* width: 35em; */
     -bs-gutter-x: 1.5rem;
@@ -147,36 +157,75 @@ padding: 0 1.25rem;
     border: 2px solid #8080804d;
    
 }
+.para1 p{
+   
+        margin: 1.0625rem 0.75em 0;
+        width: calc(100% - 2.5em);
+        padding: 1em 0.5em;
+        line-height: 150%;
+        font-weight: normal;
+        font-size: 0.8125rem;
+        font-family: var(--ff-lato);
+        height: auto;
+        text-align: justify;
+        border: 0.25rem solid var(--clr-neutral-white);
+    
+}
 .para2{
     /*background-color: white; */
-    width: 24em;
-    -bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    padding: 20px;
-    margin: 0px 29px -2px 116px;
+   
+    padding: 2.5rem 2.5rem 0.625rem 2.5rem;
 
 }
+.second{
+    padding: 2.5rem 2.5rem 0.625rem 2.5rem;
+    font: 700 0.875rem var(--ff-lato)
+}
+.second a{
+    color: black;
+}
+.container-back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border: 1px solid rgb(241, 238, 241);
+}
 .container{
-    width: 35em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     /* width: 35em; */
-    -bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    padding: 20px;
-    margin: 15px 23px 14px 12px
+    padding: 3.1875rem 1.5625rem 0 1.5625rem;
 }
 
 .strong{
-    font-size: 30px;
-    width: 11em;
-    padding-left: 85px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 .light{
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     color: #6f7073;
-    width: 23em;
-    padding-left: 85px;
+    text-align: center;
+}
+hr{
+    width: 10%;
+    height: 0.0625rem;
+    background-color: orangered;
+    margin: 0.5rem auto;
+}
+.past-summit{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
 .image{
     width: 31em;
@@ -192,23 +241,19 @@ padding: 0 1.25rem;
     padding-left: 39px;
 }
 .str{
-    font-size: 37px;
-    width: 15em;
-    padding-left: 85px;
+    font-size: 1.5rem;
+   align-items: center;
 }
 .lig{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: #6f7073;
-    width: 27em;
-    padding-left: 85px;
+   align-items: center;
 }
 .cut{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: #6f7073;
-    padding-left: 191px;
-    width: 15em;
 }
 .history{
     display: flex;
@@ -229,19 +274,25 @@ padding: 0 1.25rem;
     font-size: 24px;
 }
 .first-histo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-image: url(img/hawa.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-width: 45em;
+    background-size: 100% auto;
     height: 20em;
     padding: 0;
     margin: 0;
 }
 .sec-histo{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
     background-image: url(img/fem.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    min-width: 45em;
+    background-size: 100% auto;
     height: 20em;
     padding: 0;
     margin: 0;
@@ -298,8 +349,11 @@ padding: 0 1.25rem;
     letter-spacing: -0.01em;
     color: #272a31;
 }
-footer{
-    min-width: 40em;
+.last-hr{
+    width: 10%;
+    height: 0.0625rem;
+    background-color: orangered;
+    margin: 0.5rem auto;
 }
 .social-media{
     display: none;
