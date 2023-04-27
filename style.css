@@ -658,4 +658,55 @@
     display: flex;
     padding: 1.25rem 6.5625rem;
         }
+        .footer-first2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 5%;
+            background-color: hsl(222, 11%, 17%);
+            margin-top: 80px;
+            gap: 1em;
+        }
+        .footer-first2 h3 {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.01em;
+            color: #fff;
+        }
+        .sponsor2 {
+            gap: 2em;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            flex-direction: row;
+        }
+        .sponsor2 img {
+            width: 3em;
+            height: 3em;
+        }
+        .footer-second2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 3%;
+            background-color: #fff;
+        }
+        .footer-second2 img {
+            width: 30%;
+            height: 10%;
+        }
+        .footer-second2 p {
+            width: 30%;
+            height: 10%;
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 13px;
+            display: flex;
+            align-items: center;
+            letter-spacing: -0.01em;
+            color: #272a31;
+        }
     }

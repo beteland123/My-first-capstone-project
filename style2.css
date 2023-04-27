@@ -765,6 +765,7 @@ header{
         padding: 5%;
         background-color: #272a31;
         margin-top: 80px;
+        gap: 1em;
     }
     .footer-first2 h3 {
         font-weight: 400;
