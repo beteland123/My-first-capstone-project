@@ -569,4 +569,21 @@ background-color: #ec5242;
             width: 5%;
             display: flex;
         }
+        .join-btn{
+            display: none;
+        }
+        .see{
+            align-self: center;
+            color: white;
+            font-family: 'lato',sans-serif;
+            padding: 3.125rem;
+            display: block;
+
+        }
+        .join{
+            justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1.25rem 6.5625rem;
+        }
     }
