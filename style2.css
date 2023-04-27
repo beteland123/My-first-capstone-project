@@ -433,7 +433,10 @@ footer{
   }
 
 .social-media{
+    /*
     min-width: 90em;
+    */
+
     display: flex;
     justify-content: flex-end;
     font-family: "Poppins", sans-serif;
@@ -460,7 +463,7 @@ footer{
     color: #344563;
     gap: 15%;
     background-color: black;
-    margin-right: 63px;
+   /* margin-right: 63px;*/
     text-decoration: none;
     color: #ffff;
  }
@@ -476,7 +479,7 @@ footer{
   }
  
 .logop{
-    padding-left: 7em;
+   /* padding-left: 7em;*/
     width: 2em;
 }
 .mylogo img{
@@ -485,7 +488,7 @@ footer{
 }
   .desk{
     height: 4em;
-    min-width: 90em;
+    /*min-width: 90em;*/
     display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
@@ -521,8 +524,9 @@ footer{
  }
  .para2{
     margin-right: 2em;
-    padding-left: 47px;
-    width:auto;
+    /*padding-left: 47px;
+    width:auto;*/
+    margin-left: -3em;
  }
  
  .container{
@@ -537,18 +541,19 @@ footer{
     height: 4em;
 }
 .content-back {
-    min-width: 85em;
+    /*min-width: 85em;*/
         background-image: url(img/wider.jpg);
         background-repeat: no-repeat;
         background-size: 100% 45em; 
        height: 45em;
     }
     .content{
-        width: 55em;
+        /*width: 55em;
+        margin-left: 30em;*/
         display: flex;
         flex-direction: column;
         justify-content: center; 
-        margin-left: 30em;
+        margin-left: 3em;
         
     }
     .head{
@@ -564,7 +569,6 @@ footer{
         font-size: 52px;
     }
     .para1{
-        width: 35em;
         background-color: white;
         /* width: 35em; */
         -bs-gutter-x: 1.5rem;
@@ -586,10 +590,11 @@ footer{
     }
     
     .container{
-        width: 42em;
-        margin-left: 30em;
+        margin-left: 3em;
         background-color: white;
-        /* width: 35em; */
+        /* width: 35em;
+         width: 42em;
+        margin-left: 30em; */
         -bs-gutter-x: 1.5rem;
         --bs-gutter-y: 0;
        
@@ -621,22 +626,24 @@ footer{
     .str{
         font-size: 37px;
         width: 15em;
-        margin-left: 15em;
+       /* margin-left: 15em;*/
+       margin-left: 4em;
     }
     .classify{
         width: 2px solid #8080804d;
         padding-left: 4em;
     }
     .lig{
-        margin-left: 27em;
+        /*margin-left: 27em; 
+        width: 27em;*/
         font-family: 'Lato', sans-serif;
         font-size: 18px;
         color: #6f7073;
-        width: 27em;
+       margin-left: 4em;
         padding-left: 85px;
     }
     .cut{
-        margin-left: 27em;
+        /*margin-left: 27em;*/
         font-family: 'Lato', sans-serif;
         font-size: 18px;
         color: #6f7073;
@@ -645,13 +652,13 @@ footer{
     }
     .history{
         display: flex;
-        gap: 2em;
+        gap: 1em;
     }
     .first-histo{
         background-image: url(img/hawa.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        min-width: 45em;
+        /*min-width: 45em;*/
         height: 20em;
         padding: 0;
         margin-left: 1em;
@@ -673,7 +680,7 @@ footer{
         background-image: url(img/fem.jpeg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        min-width: 45em;
+        /*min-width: 45em;*/
         height: 20em;
         padding: 0;
         margin: 0;
