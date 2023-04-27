@@ -16,6 +16,9 @@
     box-sizing: border-box;
 }
 @media only screen and (max-width: 768px){
+    .one{
+        display: none;
+    }
     .logop{
         display: none;
     }
@@ -691,6 +694,7 @@ header{
         flex-direction: column;  
         align-items: center;
         justify-content: center;
+        gap: 2em;
     }
     .str{
         font-size: 37px;
@@ -772,14 +776,13 @@ header{
         color: #fff;
     }
     .sponsor2 {
+        gap: 2em;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         flex-direction: row;
     }
-    .sponsor2 img {
-        margin: 6px 9px;
-    }
+    
     .footer-second2 {
         width: 100%;
         display: flex;
@@ -809,10 +812,20 @@ header{
         min-width: 40em;
     }
     hr{
-        margin-left: 45em;
         border: 2px solid orangered;
         margin-top: 2px;
-        width: 10em
+        width: 1em
+    }
+    .none{
+        display: none;
+    }
+    .one{
+        font-size: 18px;
+    color: #6f7073;
+    }
+    .sponsor2 img{
+         width: 3em;
+         height: 3em;
     }
 }
  
