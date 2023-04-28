@@ -27,6 +27,7 @@
         display: none;
     }
 .mobile-menu {
+    left: 0;
     display: none;
     position: fixed;
     background: #020202cf;

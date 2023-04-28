@@ -749,4 +749,47 @@
             letter-spacing: -0.01em;
             color: #272a31;
         }
+        .speaker-title{
+            color: red;
+            font-style: italic;
+
+        }
+        .speaker-img{
+            width: 200px;
+        }
+        .card-image img{
+            width: 10em;
+            height: 10em;
+        }
+        .speaker{
+            margin-top: 3em;
+            display: grid;
+            grid-template-columns:  auto auto;
+            grid-template-rows: auto auto auto;
+            padding-left:  6.5625em;
+            padding-right:  6.5625em;
+            row-gap: 0.5em;
+            column-gap: 0.5em;
+        }
+        .card-container{
+            display: flex;
+            gap: 1em;
+            
+        }
+        .card-name h2{
+            font-family:'cocogoose-regular', sans-serif;
+            font-size: 1.5em ;
+            font-weight: 600;
+        }
+        .card-title h3{
+            font-family:'cocogoose-regular', sans-serif;
+            font-style: italic;
+            color: #ec5242;
+            font-size: 1em;
+        }
+        .card-description p{
+            font-family:'lato', sans-serif;
+            font-size: 1em ;
+            font-weight: 100;
+        }
     }
