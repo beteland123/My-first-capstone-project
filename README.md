@@ -17,7 +17,7 @@
 - [:memo: License](#license)
 # :book: [My-first-capstone-project] <a name="about-project"></a>
 > This project is called capstone-project for module-1 in microvese. It is devloped for the purpose of Designing a website  at the end of the each of the Microverse Core Curriculum modules. my capstone project is focused on developing a website for an online webprogramming course for females.
-- outtline of about my project: [video]()
+- outtline of about my project: [video](https://www.loom.com/share/2c93fab0dbc547f0b277a3405a91f3a5)
 ## :hammer_and_wrench: Built With <a name="built-with"> using Html, CSS and javascript</a>
 ### Tech Stack <a name="tech-stack"></a>
 <details>
@@ -47,7 +47,7 @@
 
 ## :rocket: Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link]( )
+> [Live Demo Link](https://beteland123.github.io/My-first-capstone-project/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :computer: Getting Started <a name="getting-started"></a>
