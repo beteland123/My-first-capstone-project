@@ -392,6 +392,25 @@ margin-top: 1em;
 font-size: 500;
 font-weight: bolder;
 }
+.more{
+    display: flex;
+    margin-left: 3.9375rem;
+    border: 1px solid gray;
+    margin-right: 3.9375rem;
+    align-items: center;
+    justify-content: center;
+
+}
+.more-icon{
+    padding-bottom: 1em;
+    width: 3em;
+    height: 4em;
+    color: #ec5242;
+}
+.more p{
+    font-size: 1.5em;
+    font-weight: 200;
+}
 }
 @media only screen and (min-width: 768px){
     
@@ -845,5 +864,8 @@ font-weight: bolder;
     margin-top: 1em;
     font-size: 500;
     font-weight: bolder;
+        }
+        .more{
+            display: none;
         }
     }
