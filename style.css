@@ -334,6 +334,8 @@
   .card-container {
     display: flex;
     gap: 1em;
+    align-items: center;
+    justify-content: center;
   }
 
   .speaker .card-container:nth-child(n+3) {
@@ -350,6 +352,8 @@
     display: flex;
     flex-direction: column;
     gap: 3em;
+    align-items: center;
+    justify-content: center;
   }
 
   .card-name h2 {
