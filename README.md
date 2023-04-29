@@ -86,8 +86,14 @@ Install this project with:git and npm install
 - GitHub: [Developer-Betel Andarge](https://github.com/beteland123)
 - Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223)
 
+## ⚠️Disclaimer <a name="disclaimer"></a>
  ## :bust_in_silhouette:    **Original design idea by Cindy Shin**
 -behance: [https://www.behance.net/adagio07)
+
+I only develope the  code for the website using html, css and javascript.
+The UI design for this website __DOES NOT__ belong to me. All credit must be given to the original author/source. See details below
+
+- Original design idea by [_Cindy Shin_](https://www.behance.net/adagio07) in Behance.
 
 ## :telescope: Future Features <a name="future-features"></a>
 

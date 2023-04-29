@@ -25,7 +25,28 @@
   height: 3em;
 }
 
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
+  .flex-center-m {
+    display: flex;
+    align-items: center;
+  }
+
   .one {
     display: none;
   }
@@ -47,9 +68,7 @@
 
   .nav-bar {
     min-height: 4.3751rem;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 1.25rem;
   }
 
@@ -99,9 +118,7 @@
   }
 
   .content {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 
   .content-back {
@@ -204,11 +221,8 @@
   }
 
   .container {
-    display: flex;
     flex-direction: column;
     gap: 1em;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     padding: 3.1875rem 1.5625rem 0 1.5625rem;
   }
@@ -234,10 +248,7 @@
 
   .past-summit {
     margin-top: 1em;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 1em;
   }
 
@@ -282,23 +293,20 @@
 
   .year {
     padding-top: 61px;
-    padding-left: 191px;
     display: flex;
     align-self: center;
     color: white;
-    font-size: 38px;
+    font-size: 1.5em;
   }
 
   .cc {
-    padding-left: 100px;
+    padding-left: 0.5em;
     color: white;
     font-size: 24px;
+    padding-right: 0.5em;
   }
 
   .first-histo {
-    align-items: center;
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     background-image: url(img/hawa.jpg);
     background-repeat: no-repeat;
@@ -306,63 +314,36 @@
     height: 20em;
     padding: 0;
     margin: 0;
+    filter: opacity(0.5) drop-shadow(0 0 rgb(255, 4, 4));
   }
 
   .sec-histo {
-    align-items: center;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
     background-image: url(img/fem.jpeg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     height: 20em;
     padding: 0;
     margin: 0;
+    filter: opacity(0.5) drop-shadow(0 0 rgb(255, 4, 4));
   }
 
-  .footer-first2 {
-    max-width: 49em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5%;
-    background-color: #272a31;
-    margin-top: 80px;
-  }
-
-  .footer-first2 h3 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-    color: #fff;
-  }
-
-  .sponsor2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-
-  .sponsor2 img {
-    margin: 6px 9px;
+  footer {
+    background-color: black;
   }
 
   .footer-second2 {
+    margin-top: 3em;
+    background-color: black;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 3%;
-    background-color: #fff;
+    padding: 3em;
   }
 
   .footer-second2 img {
-    width: 30%;
-    height: 10%;
+    width: 7em;
+    height: 2em;
   }
 
   #desktop-p {
@@ -370,15 +351,13 @@
   }
 
   .footer-second2 p {
-    width: 30%;
-    height: 10%;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
     display: flex;
     align-items: center;
     letter-spacing: -0.01em;
-    color: #272a31;
+    color: white;
   }
 
   .last-hr {
@@ -407,11 +386,9 @@
   }
 
   .social-media {
-    display: flex;
     justify-content: flex-end;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    align-items: center;
     padding: 0.625rem;
     max-width: 87%;
     margin: 0 auto;
@@ -438,9 +415,7 @@
 
   .nav-bar {
     min-height: 4.375rem;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 1.25rem;
     background-color: white;
     box-shadow: 0 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.2);
@@ -469,14 +444,12 @@
     width: 85%;
     margin: 0 auto;
     height: 4em;
-    display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    align-items: center;
     text-align: center;
     color: #344563;
     gap: 3%;
@@ -508,10 +481,7 @@
   }
 
   .container {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 2em;
     border: 1px solid var(--clr-primary-white);
   }
@@ -534,9 +504,7 @@
   }
 
   .content {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     max-width: 85%;
     margin: 0 auto;
@@ -622,10 +590,7 @@
 
   .past-summit {
     padding-top: 1em;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 2em;
   }
 
@@ -656,17 +621,20 @@
   }
 
   .first-histo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-image: url(img/hawa.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
     padding: 0;
     margin-left: 1em;
+    filter: opacity(0.5) drop-shadow(0 0 rgb(255, 4, 4));
   }
 
   .year {
     padding-top: 61px;
-    padding-left: 191px;
     display: flex;
     align-self: center;
     color: white;
@@ -674,59 +642,37 @@
   }
 
   .cc {
-    padding-left: 100px;
+    padding-left: 0.5em;
     color: white;
-    font-size: 24px;
+    font-size: 1.5em;
+    padding-right: 0.5em;
   }
 
   .sec-histo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-image: url(img/fem.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 20em;
     padding: 0;
     margin: 0;
-  }
-
-  .footer-first2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5%;
-    background-color: #272a31;
-    margin-top: 80px;
-    gap: 1em;
-  }
-
-  .footer-first2 h3 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.01em;
-    color: #fff;
-  }
-
-  .sponsor2 {
-    gap: 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
+    filter: opacity(0.5) drop-shadow(0 0 rgb(255, 4, 4));
   }
 
   .footer-second2 {
+    margin-top: 5em;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 3%;
-    background-color: #fff;
+    padding: 3em;
+    background-color: black;
   }
 
   .footer-second2 img {
-    width: 30%;
-    height: 10%;
+    width: 12em;
+    height: 3em;
   }
 
   #desktop-p {
@@ -734,19 +680,18 @@
   }
 
   .footer-second2 p {
-    width: 30%;
-    height: 10%;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
     display: flex;
     align-items: center;
     letter-spacing: -0.01em;
-    color: #272a31;
+    color: white;
   }
 
   footer {
     min-width: 40em;
+    background-color: black;
   }
 
   hr {

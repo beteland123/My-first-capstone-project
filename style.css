@@ -25,12 +25,26 @@
   height: 3em;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-align {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 768px) {
   .footer-first2 {
     max-width: 49em;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 5%;
     background-color: #272a31;
     margin-top: 80px;
@@ -40,10 +54,13 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    display: flex;
-    align-items: center;
     letter-spacing: -0.01em;
     color: #fff;
+  }
+
+  .footer-second2 img {
+    width: 7em;
+    height: 2em;
   }
 
   .sponsor2 {
@@ -64,15 +81,11 @@
   }
 
   .footer-second2 p {
-    width: 30%;
-    height: 10%;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
-    display: flex;
-    align-items: center;
     letter-spacing: -0.01em;
-    color: #272a31;
+    color: #383c46;
   }
 
   .social-media {
@@ -85,9 +98,7 @@
 
   .nav-bar {
     min-height: 4.3751rem;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 1.25rem;
   }
 
@@ -144,10 +155,7 @@
   }
 
   .content {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .content-back {
@@ -199,7 +207,7 @@
   }
 
   .main {
-    background-color: black;
+    background-color: #272a31;
     padding: 1.25rem 0.9375rem 2.5rem 0.9375rem;
   }
 
@@ -212,8 +220,6 @@
     font-size: 1.6875rem;
     padding: 1.25rem 0 0;
     font-family: 'Cocogoosetrial', sans-serif;
-
-    /* font-size: 37px; */
     color: #6f7073;
   }
 
@@ -226,10 +232,7 @@
   .program-back {
     background-color: rgba(62, 58, 58, 0.686);
     color: white;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0.9375rem;
   }
 
@@ -237,14 +240,12 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    background-color: black;
+    background-color: #272a31;
   }
 
   .program {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     gap: 1rem;
     background-color: rgba(62, 58, 58, 0.686);
     width: 100%;
@@ -343,17 +344,14 @@
   }
 
   .card-image img {
-    width: 13em;
-    height: 13em;
+    width: 10em;
+    height: auto;
   }
 
   .speaker {
     padding: 1.25rem 3.9375rem 2.5rem 3.9375rem;
-    display: flex;
     flex-direction: column;
     gap: 3em;
-    align-items: center;
-    justify-content: center;
   }
 
   .card-name h2 {
@@ -377,9 +375,7 @@
 
   .speaker-outline {
     color: rgb(5, 5, 5);
-    align-items: center;
     margin: 0.9375rem;
-    display: flex;
     flex-direction: column;
     margin-top: 1em;
     font-size: 2em;
@@ -387,12 +383,9 @@
   }
 
   .more {
-    display: flex;
     margin-left: 3.9375rem;
     border: 1px solid gray;
     margin-right: 3.9375rem;
-    align-items: center;
-    justify-content: center;
   }
 
   .more-icon {
@@ -406,6 +399,12 @@
     font-size: 1.5em;
     font-weight: 200;
   }
+
+  .flex-center-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -418,11 +417,9 @@
   }
 
   .social-media {
-    display: flex;
     justify-content: flex-end;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    align-items: center;
     padding: 0.625rem;
     max-width: 87%;
     margin: 0 auto;
@@ -457,9 +454,7 @@
 
   .nav-bar {
     min-height: 4.375rem;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 0 1.25rem;
     background-color: white;
     box-shadow: 0 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.2);
@@ -481,7 +476,6 @@
   }
 
   .desk {
-    display: flex;
     width: 85%;
     margin: 0 auto;
     height: 4em;
@@ -491,7 +485,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    align-items: center;
     text-align: center;
     color: #344563;
     gap: 3%;
@@ -613,15 +606,16 @@
   }
 
   .main-program {
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: #272a31;
     gap: 0.1875rem;
     padding: 1.25rem 6.5625rem;
   }
 
   .main {
-    background-color: black;
+    background-color: #272a31;
     justify-content: center;
     align-items: center;
     padding: 1.25rem 0.9375rem 2.5rem 0.9375rem;
@@ -643,11 +637,11 @@
   }
 
   .program {
-    width: 20em;
+    width: 10em;
     background-color: rgba(62, 58, 58, 0.686);
     display: flex;
     flex-direction: column;
-    height: 23em;
+    height: auto;
     gap: 1em;
     margin-top: 10px;
   }
@@ -701,9 +695,6 @@
   }
 
   .join {
-    justify-content: center;
-    align-items: center;
-    display: flex;
     padding: 1.25rem 6.5625rem;
   }
 
@@ -749,13 +740,11 @@
   }
 
   .footer-second2 img {
-    width: 30%;
-    height: 10%;
+    width: 12em;
+    height: 3em;
   }
 
   .footer-second2 p {
-    width: 30%;
-    height: 10%;
     font-weight: 700;
     font-size: 10px;
     line-height: 13px;
