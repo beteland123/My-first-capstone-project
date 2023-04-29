@@ -17,7 +17,7 @@
 - [:memo: License](#license)
 # :book: [My-first-capstone-project] <a name="about-project"></a>
 > This project is called capstone-project for module-1 in microvese. It is devloped for the purpose of Designing a website  at the end of the each of the Microverse Core Curriculum modules. my capstone project is focused on developing a website for an online webprogramming course for females.
-- outtline of about my project: [video]()
+- outtline of about my project: [video](https://www.loom.com/share/2c93fab0dbc547f0b277a3405a91f3a5)
 ## :hammer_and_wrench: Built With <a name="built-with"> using Html, CSS and javascript</a>
 ### Tech Stack <a name="tech-stack"></a>
 <details>
@@ -47,7 +47,7 @@
 
 ## :rocket: Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link]( )
+> [Live Demo Link](https://beteland123.github.io/My-first-capstone-project/ )
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :computer: Getting Started <a name="getting-started"></a>
@@ -86,9 +86,6 @@ Install this project with:git and npm install
 - GitHub: [Developer-Betel Andarge](https://github.com/beteland123)
 - Linkedin-[Betel Andarge](https://www.linkedin.com/in/betel-andarge-1b9446223)
 
- ## :bust_in_silhouette:    **Original design idea by Cindy Shin**
--behance: [https://www.behance.net/adagio07)
-
 ## :telescope: Future Features <a name="future-features"></a>
 
 - [ ] link to database
@@ -113,8 +110,15 @@ If you like this project email me through my email address...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
+## ⚠️Disclaimer <a name="disclaimer"></a>
+ ## :bust_in_silhouette:    **Original design idea by Cindy Shin**
+-behance: [https://www.behance.net/adagio07)
 
-I would like to thank the Microvese program for giving me this golden chance and for helping me to have solid knowledge to develope this projwect
+I only develope the  code for the website using html, css and javascript.
+The UI design for this website __DOES NOT__ belong to me. All credit must be given to the original author/source. See details below
+
+- Original design idea by [_Cindy Shin_](https://www.behance.net/adagio07) in Behance.
+- I would also like to thank the Microvese program for giving me this golden chance and for helping me to have solid knowledge to develope this project
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
