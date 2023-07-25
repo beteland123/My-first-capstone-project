@@ -149,7 +149,13 @@
   }
 
   .headp {
+    background-image: url(./img/red2.jpg);
+    background-repeat: repeat;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
     font-size: 42px;
   }
 
@@ -528,6 +534,13 @@
     font-weight: 800;
     width: 80%;
     font-size: 3.5em;
+    background-image: url(./img/red2.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
   }
 
   .para2 {

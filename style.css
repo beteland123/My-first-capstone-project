@@ -178,7 +178,13 @@
   }
 
   .headp {
+    background-image: url(./img/red2.jpg);
+    background-repeat: repeat;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
     font-family: var(--ff-goose);
     line-height: 3.4375rem;
     font-size: 2.5em;
@@ -207,8 +213,12 @@
   }
 
   .main {
-    background-color: #272a31;
     padding: 1.25rem 0.9375rem 2.5rem 0.9375rem;
+    background-color: #000;
+    background-image: radial-gradient(#333 10%, transparent 11%), radial-gradient(#272a31 10%, transparent 11%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
   }
 
   .foot {
@@ -240,7 +250,6 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    background-color: #272a31;
   }
 
   .program {
@@ -553,7 +562,13 @@
   }
 
   .headp {
+    background-image: url(./img/red2.jpg);
+    background-repeat: repeat;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
     font-weight: 800;
     width: 80%;
     font-size: 3.5em;
@@ -609,13 +624,16 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
-    background-color: #272a31;
     gap: 0.1875rem;
     padding: 1.25rem 6.5625rem;
   }
 
   .main {
-    background-color: #272a31;
+    background-color: #000;
+    background-image: radial-gradient(#333 10%, transparent 11%), radial-gradient(#272a31 10%, transparent 11%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
     justify-content: center;
     align-items: center;
     padding: 1.25rem 0.9375rem 2.5rem 0.9375rem;
